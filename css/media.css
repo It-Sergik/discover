@@ -111,6 +111,15 @@
   .tours-container a {
     flex: 0 49%;
   }
+
+  .contacs-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -134,5 +143,11 @@
   }
   .tours-container a {
     flex: 0 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact-form button i {
+    margin-left: 25px;
   }
 }

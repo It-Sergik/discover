@@ -312,3 +312,156 @@ header .container {
 .more:hover {
   box-shadow: none;
 }
+
+.contacs {
+  padding: 100px 0 90px;
+  background: #efeeee;
+}
+
+.contacs h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: 28px;
+  color: var(--lightgrey);
+  text-align: center;
+}
+
+.contacs-container {
+  margin-top: 60px;
+}
+
+.contact-info,
+.contact-form {
+  width: 50%;
+  border: 1px solid #c9c9c9;
+}
+
+.contact-info {
+  padding: 35px 30px 60px;
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.footer-logo::after {
+  background: #efeeee;
+}
+
+.contact-info p {
+  margin: 40px 0 30px;
+  color: var(--lightgrey);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.contact-item {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-item span,
+.contact-item a {
+  font-size: 14px;
+  color: #9b9b9b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-item i {
+  color: #ed7e01;
+  font-style: 20px;
+  margin-right: 20px;
+}
+
+.social {
+  margin-top: 35px;
+  display: flex;
+}
+
+.social a {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #c9c9c9;
+  color: var(--white);
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.facebook:hover {
+  background: #4267b2;
+}
+
+.google-plus:hover {
+  background: #db4437;
+}
+
+.linkedin:hover {
+  background: #2867b2;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.contact-form {
+  padding: 30px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  background: none;
+  font-size: 14px;
+  color: var(--lightgrey);
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 130px;
+  resize: none;
+}
+
+.contact-form button {
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--green);
+  font-size: 26px;
+  padding: 25px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(89, 196, 90, 0.65);
+  transition: 0.3s;
+  margin-top: 60px;
+  max-width: 235px;
+  align-self: center;
+}
+
+.contact-form button i {
+  margin-left: 35px;
+}
+
+.contact-form button:hover {
+  box-shadow: none;
+}
